@@ -10,6 +10,7 @@
 		FFB310AB1F05B10A00A96DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310AA1F05B10A00A96DE9 /* main.m */; };
 		FFB310B31F05B14600A96DE9 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310B21F05B14600A96DE9 /* Controller.m */; };
 		FFB310B61F05B15200A96DE9 /* WonkyController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310B51F05B15200A96DE9 /* WonkyController.m */; };
+		FFB310B91F05B27F00A96DE9 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310B81F05B27F00A96DE9 /* Printer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FFB310B21F05B14600A96DE9 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		FFB310B41F05B15200A96DE9 /* WonkyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonkyController.h; sourceTree = "<group>"; };
 		FFB310B51F05B15200A96DE9 /* WonkyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonkyController.m; sourceTree = "<group>"; };
+		FFB310B71F05B27F00A96DE9 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		FFB310B81F05B27F00A96DE9 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				FFB310B21F05B14600A96DE9 /* Controller.m */,
 				FFB310B41F05B15200A96DE9 /* WonkyController.h */,
 				FFB310B51F05B15200A96DE9 /* WonkyController.m */,
+				FFB310B71F05B27F00A96DE9 /* Printer.h */,
+				FFB310B81F05B27F00A96DE9 /* Printer.m */,
 			);
 			path = "WordPrinter-Delegate2";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB310B91F05B27F00A96DE9 /* Printer.m in Sources */,
 				FFB310AB1F05B10A00A96DE9 /* main.m in Sources */,
 				FFB310B61F05B15200A96DE9 /* WonkyController.m in Sources */,
 				FFB310B31F05B14600A96DE9 /* Controller.m in Sources */,
